@@ -1,0 +1,52 @@
+From e0d8fa0d46f39cf2ec6ea16f20f8697e89df44d9 Mon Sep 17 00:00:00 2001
+From: Xogium <contact@xogium.me>
+Date: Wed, 20 Apr 2022 16:43:05 +0200
+Subject: [PATCH 2/3] sun8i-v3s-licheepi-zero: enabled uart1.
+
+---
+ arch/arm/boot/dts/sun8i-v3s-licheepi-zero.dts | 8 ++++++--
+ arch/arm/boot/dts/sun8i-v3s.dtsi              | 5 +++++
+ 2 files changed, 11 insertions(+), 2 deletions(-)
+
+diff --git a/arch/arm/boot/dts/sun8i-v3s-licheepi-zero.dts b/arch/arm/boot/dts/sun8i-v3s-licheepi-zero.dts
+index a226829e6715..8b4e862032c0 100644
+--- a/arch/arm/boot/dts/sun8i-v3s-licheepi-zero.dts
++++ b/arch/arm/boot/dts/sun8i-v3s-licheepi-zero.dts
+@@ -90,12 +90,16 @@ &uart0 {
+ 	status = "okay";
+ };
+ 
++&uart1 {
++	pinctrl-0 = <&uart1_pe_pins>;
++	pinctrl-names = "default";
++	status = "okay";
++};
++
+ &codec {
+ 	allwinner,audio-routing =
+ 	"Headphone", "HP",
+ 	"Headphone", "HPCOM";
+-	status = "okay";
+-};
+ 
+ &usb_otg {
+ 	dr_mode = "otg";
+diff --git a/arch/arm/boot/dts/sun8i-v3s.dtsi b/arch/arm/boot/dts/sun8i-v3s.dtsi
+index 084323d5c61c..7fd6bf03c400 100644
+--- a/arch/arm/boot/dts/sun8i-v3s.dtsi
++++ b/arch/arm/boot/dts/sun8i-v3s.dtsi
+@@ -391,6 +391,11 @@ uart0_pb_pins: uart0-pb-pins {
+ 				function = "uart0";
+ 			};
+ 
++			uart1_pe_pins: uart1-pe-pins {
++				pins = "PE21", "PE22";
++				function = "uart1";
++			};
++
+ 			uart2_pins: uart2-pins {
+ 				pins = "PB0", "PB1";
+ 				function = "uart2";
+-- 
+2.36.1
+

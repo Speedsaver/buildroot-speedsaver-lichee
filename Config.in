@@ -1,0 +1,3 @@
+# packages
+
+source "$BR2_EXTERNAL_SPEEDSAVER_LICHEE_PATH/packages/Config.in"

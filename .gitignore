@@ -1,0 +1,4 @@
+board/speedsaver/rootfs_overlay/usr/share/navit/maps
+board/speedsaver/utilities/genimage.cfg
+dl
+output

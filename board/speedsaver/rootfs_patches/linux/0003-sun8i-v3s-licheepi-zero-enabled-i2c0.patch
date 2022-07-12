@@ -1,0 +1,29 @@
+From ac2336d477dbd5ae517e3b172ae0ce2bd513167d Mon Sep 17 00:00:00 2001
+From: Xogium <contact@xogium.me>
+Date: Wed, 20 Apr 2022 17:32:18 +0200
+Subject: [PATCH 3/3] sun8i-v3s-licheepi-zero: enabled i2c0.
+
+---
+ arch/arm/boot/dts/sun8i-v3s-licheepi-zero.dts | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/arch/arm/boot/dts/sun8i-v3s-licheepi-zero.dts b/arch/arm/boot/dts/sun8i-v3s-licheepi-zero.dts
+index 8b4e862032c0..1e500c91c1fd 100644
+--- a/arch/arm/boot/dts/sun8i-v3s-licheepi-zero.dts
++++ b/arch/arm/boot/dts/sun8i-v3s-licheepi-zero.dts
+@@ -100,6 +100,12 @@ &codec {
+ 	allwinner,audio-routing =
+ 	"Headphone", "HP",
+ 	"Headphone", "HPCOM";
++	status = "okay";
++};
++
++&i2c0 {
++	status = "okay";
++};
+ 
+ &usb_otg {
+ 	dr_mode = "otg";
+-- 
+2.36.1
+

@@ -1,0 +1,10 @@
+[Unit]
+Description=Log nmea from gpsd
+After=gpsd.service
+Wants=gpsd.service
+
+[Service]
+ExecStart=/usr/bin/gps-logger.sh
+
+[Install]
+WantedBy=multi-user.target
