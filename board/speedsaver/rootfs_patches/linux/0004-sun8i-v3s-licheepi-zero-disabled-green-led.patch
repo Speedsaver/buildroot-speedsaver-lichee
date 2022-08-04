@@ -1,0 +1,24 @@
+From 50ac51ed50e272b83be2cf351cf109da0849d060 Mon Sep 17 00:00:00 2001
+From: Xogium <contact@xogium.me>
+Date: Thu, 4 Aug 2022 12:05:30 +0200
+Subject: [PATCH 4/4] sun8i-v3s-licheepi-zero: disabled green led.
+
+---
+ arch/arm/boot/dts/sun8i-v3s-licheepi-zero.dts | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/arch/arm/boot/dts/sun8i-v3s-licheepi-zero.dts b/arch/arm/boot/dts/sun8i-v3s-licheepi-zero.dts
+index 1e500c91c1fd..b3bf0bdce718 100644
+--- a/arch/arm/boot/dts/sun8i-v3s-licheepi-zero.dts
++++ b/arch/arm/boot/dts/sun8i-v3s-licheepi-zero.dts
+@@ -67,7 +67,6 @@ blue_led {
+ 		green_led {
+ 			label = "licheepi:green:usr";
+ 			gpios = <&pio 6 0 GPIO_ACTIVE_LOW>; /* PG0 */
+-			default-state = "on";
+ 		};
+ 
+ 		red_led {
+-- 
+2.37.1
+
