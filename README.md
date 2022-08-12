@@ -20,4 +20,4 @@ make
 
 Note: If your machine has more than one core, you can run the second make invocation with the -j option set to the number of cores +1 to accelerate the build process.
 
-The resulting sdcard.img file in output/speedsaver/images must be flashed on a micro sd card, using dd or another software.
+The resulting .img image file in output/speedsaver/images must be flashed on a micro sd card, using dd or another software.
