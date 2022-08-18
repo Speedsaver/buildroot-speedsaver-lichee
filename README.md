@@ -1,6 +1,10 @@
 # speedsaver #
 
-This is the buildroot external tree for the speedsaver build.
+This is the buildroot external tree for the speedsaver build
+
+#### Note if you are new to Buildroot, see prerequisites: https://buildroot.org/downloads/manual/manual.html#requirement-mandatory. Tested with vanilla Lubuntu 22.04.1 LTS, only the following was needed:
+sudo apt install make gcc build-essentials libncurses5-dev libssl-dev
+libncurses5-dev is in place of ncurses5 ####
 
 This is based on the lichee zero board.
 
