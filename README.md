@@ -8,7 +8,7 @@ sudo apt install make gcc build-essentials libncurses5-dev libssl-dev
 
 libncurses5-dev is in place of ncurses5
 
-# This is based on the lichee zero board #
+#This is based on the lichee zero board#
 
 ## How to build ##
 
