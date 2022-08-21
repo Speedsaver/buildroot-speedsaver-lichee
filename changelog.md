@@ -1,4 +1,15 @@
 
+2022-08-19 / 2022-08-21
+=======================
+
+  * board/speedsaver: disable v4l subsystem and enable usb gadget serial.
+  * Update README.md
+  * Update README.md
+  * Update README.md
+  * Update README.md
+  * Update README.md
+  * Update README.md
+
 2022-08-18 / 2022-08-18
 =======================
 
