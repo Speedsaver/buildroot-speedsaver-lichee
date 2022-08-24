@@ -1,4 +1,10 @@
 
+2022-08-25 / 2022-08-25
+=======================
+
+  * board/speedsaver: bump kernel to 5.19.3.
+  * Revert "board/speedsaver: disable v4l subsystem and enable usb gadget serial."
+
 2022-08-19 / 2022-08-21
 =======================
 
