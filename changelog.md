@@ -1,4 +1,11 @@
 
+2022-08-30 / 2022-08-30
+=======================
+
+  * board/speedsaver: bump kernel to 5.19.5.
+  * Merge branch 'gadget_fix'
+   * board/speedsaver: disable v4l subsystem and enable usb gadget serial.
+
 2022-08-25 / 2022-08-25
 =======================
 
