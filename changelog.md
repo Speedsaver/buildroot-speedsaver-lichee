@@ -2,6 +2,11 @@
 2022-11-21 / 2022-11-21
 =======================
 
+  * Update README.md
+
+2022-11-21 / 2022-11-21
+=======================
+
   * board/speedsaver: bump kernel to 6.0.9
   * Update README.md
 #
