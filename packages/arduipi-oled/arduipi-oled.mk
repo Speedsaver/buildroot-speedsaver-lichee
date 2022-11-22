@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-ARDUIPI_OLED_VERSION = fe4afe150f222e7fff720dd2059643075c24e057
+ARDUIPI_OLED_VERSION = 7edeffaab02ae2aa30469a978ab903c5902ea43a
 ARDUIPI_OLED_SITE = $(call github,speedsaver,ArduiPi_OLED,$(ARDUIPI_OLED_VERSION))
 ARDUIPI_OLED_DEPENDENCIES = i2c-tools
 ARDUIPI_OLED_INSTALL_STAGING = YES
