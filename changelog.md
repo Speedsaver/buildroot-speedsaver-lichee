@@ -1,4 +1,20 @@
 
+2022-12-11 / 2022-12-12
+=======================
+
+  * Merge branch 'master' of https://github.com/Speedsaver/buildroot-speedsaver-lichee
+  * board/speedsaver: bump kernel to 6.0.12
+  * Update README.md
+  * Bump navit
+  * Bump navit
+  * Bump navit
+  * Bump rootfs size
+  * Bump navit
+  * Bump navit
+  * Update Navit to simplified version
+  * Remove arduipi-oled.hash, git already uses a hash
+  * Bump arduipi-oled
+
 2022-11-22 / 2022-11-21
 =======================
 
