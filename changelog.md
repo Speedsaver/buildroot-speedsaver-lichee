@@ -1,4 +1,11 @@
 
+2023-05-20 / 2023-05-20
+=======================
+
+  * Merge branch 'master' of https://github.com/Speedsaver/buildroot-speedsaver-lichee
+  * Update README.md
+  * board/speedsaver: bump kernel to 6.3.3
+
 2023-05-02 / 2023-05-02
 =======================
 
