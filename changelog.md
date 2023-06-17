@@ -1,4 +1,11 @@
 
+2023-06-17 / 2023-06-17
+=======================
+
+  * Merge branch 'master' of https://github.com/Speedsaver/buildroot-speedsaver-lichee
+  * board/speedsaver: revert kernel to longterm 6.1.34
+  * Update README.md
+
 2023-05-21 / 2023-05-20
 =======================
 
