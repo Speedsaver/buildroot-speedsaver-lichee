@@ -12,7 +12,7 @@ This is based on the lichee zero board
 
 ## How to build ##
 
-Download either a tarball of the latest buildroot LTS release (tested with Buildroot 2023.02.1 using stable kernel 6.3.3 at the time of this writing), and extract it, or git  clone.
+Download either a tarball of the latest buildroot LTS release (tested with Buildroot 2023.02.2 using longterm kernel 6.1.34 at the time of this writing), and extract it, or git  clone.
 Next, clone the external tree repository, either inside the buildroot directory or outside of it.
 Add the navit maps (already in .bin format) to this directory inside the external tree: board/speedsaver/rootfs_overlay/usr/share/navit. The directory containing the maps must be called 'maps', and be obtained from somewhere else, as this repository doesn't provide them.
 
